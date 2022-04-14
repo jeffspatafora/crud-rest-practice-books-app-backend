@@ -1,2 +1,13 @@
 ### books index
 GET http://localhost:3000/books
+
+### book create
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "test",
+  "author": "test",
+  "year": "test",
+  "image": "test"
+}
